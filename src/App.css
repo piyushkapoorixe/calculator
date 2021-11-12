@@ -1,0 +1,94 @@
+#clear {
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+
+.black-box {
+  background-color: black;
+}
+
+#display {
+  text-align: right;
+  color: white;
+  height: 20px;
+  font-size: 20px;
+}
+
+#calculation {
+  text-align: right;
+  color: white;
+  height: 20px;
+  font-size: 20px;
+}
+
+.fullwidth {
+  width: 100%;
+}
+
+.center {
+  width: 35%;
+	height: 50%;
+	
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+  	
+	margin: auto;
+}
+
+@media only screen and (max-width: 650px) {
+  .center {
+    width: 70%;
+    height: 50%;
+    
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+      
+    margin: auto;
+  }
+}
+
+button {
+  height: 40px;
+}
+
+button:active {     
+  background-color:yellow;
+  outline: none;    
+}
+
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
+  animation: myanimation 30s infinite;
+}
+
+@keyframes myanimation {
+  0% {background-color: brown;}
+  10%{background-color:yellow;}
+  20%{background-color: mediumslateblue;}
+  30%{background-color: aqua;}
+  40%{background-color: orange;}
+  50%{background-color: mediumspringgreen;}
+  60%{background-color: moccasin;}
+  70%{background-color:yellowgreen;}
+  80%{background-color:mediumvioletred;}
+  90%{background-color: magenta;}
+  100%{background-color: brown;}
+}
+
+button:focus,button:active {
+  outline: none !important;
+  box-shadow: none;
+}
+
+.check {
+  margin: 5px;
+}
